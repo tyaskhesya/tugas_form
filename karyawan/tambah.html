@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Tugas Form</title>
+    
+    <style>
+        header {
+            background-color: #E2B8BE;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: #CC7C84;
+        }
+        article {
+            padding: 20px;
+            width: 100%;
+            background-color: #E2B8BE;
+        }
+        footer {
+            background-color: #E2B8BE;
+            padding: 10px;
+            text-align: center;
+            color: #CC7C84;
+        }
+        nav {
+            background-color: #E2B8BE;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            overflow: hidden;
+        }
+        fieldset {
+            background-color: #E2B8BE;
+        }
+        nav li { 
+            float: left;
+        }
+        nav li a {
+            display: block;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        }
+        nav li a:hover {
+            background-color: #CC7C84;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Data Karyawan</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a style="color: #C76270;" href="../index.html">Beranda</a></li>
+            <li><a style="color: #C76270;" href="index.html">Karyawan</a></li>
+            <li><a style="color: #C76270;" href="../bagian/index.html">Bagian</a></li>
+            <li><a style="color: #C76270;" href="../penggajian/index.html">Penggajian</a></li>
+        </ul>
+    </nav>
+    <section>
+        <form action="">
+            <fieldset>
+                <legend style="color: #C76270;">Tambah Karyawan</legend>
+                <p>
+                    <label style="color: #C76270;" for="">NIK :</label>
+                    <input style="color: #C76270;" type="text" placeholder="Nik Harus Diisi">
+                </p>
+                <p>
+                    <label style="color: #C76270;" for="">Nama :</label>
+                    <input style="color: #C76270;" type="text" placeholder="Nama Harus Diisi">
+                </p>
+                <p>
+                    <label style="color: #C76270;" for="">Tanggal Mulai :</label>
+                    <input style="color: #C76270;" type="date" placeholder="Tanggal Mulai Harus Diisi">
+                </p>
+                <p>
+                    <label style="color: #C76270;" for="">Gaji Pokok :</label>
+                    <input style="color: #C76270;" type="number" placeholder ="Gaji Pokok Harus Diisi">
+                </p>
+                <p>
+                    <label style="color: #C76270;" for="">Status Karyawan :</label>
+                    <select style="color: #C76270;" name="" id="">
+                        <option style="color: #C76270;" value="--PILIH--">--PILIH--</option>
+                        <option style="color: #C76270;" value="TETAP">TETAP</option>
+                        <option style="color: #C76270;" value="MAGANG">MAGANG</option>
+                        <option style="color: #C76270;" value="KONTRAK">KONTRAK</option>
+                    </select>
+                </p>
+                <P>
+                    <button style="background-color: #CC7C84;">SIMPAN</button>
+                </P>
+            </fieldset>
+        </form>
+    </section>
+    <footer>
+        <p>Powered by SMKN 4 BANJARMASIN <time datetime="2023">2023</time></p>
+    </footer>
+</body>
+</html>
